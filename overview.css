@@ -1,0 +1,2086 @@
+.icon-external::after, .more::after {
+    top: -.1em;
+}
+.inline-video-controls > button{
+    white-space: nowrap;
+}
+.icon-wrapper .icon, .icon-wrapper .more::after, .icon-wrapper .icon-before::before, .icon-wrapper .icon-after::after{
+    position: relative;
+}
+
+
+
+
+
+.section-airpods .typography-blockquote-copy{
+    margin-left: 40px;
+}
+@media only screen and (max-width: 1250px) {
+    .section-airpods .typography-blockquote-copy{
+        margin-left: 40px;
+    }
+
+}
+@media only screen and (max-width: 1068px) {
+    .section-airpods .typography-blockquote-copy{
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-airpods .typography-blockquote-copy{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 734px) {
+    .section-compatibility .section-content {
+        width:90.5%
+    }
+}
+
+
+.section-safari .grid-item-password .typography-blockquote-copy{
+    min-width: 410px;
+}
+@media only screen and (max-width: 1250px) {
+    .section-safari .grid-item-password .typography-blockquote-copy{
+        min-width: 340px;
+    }
+    .section-safari .grid-item-password .grid-tile-blockquote{
+        max-width: 340px;
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .section-safari .grid-item-password .typography-blockquote-copy{
+        min-width: 300px;
+    }
+    .section-safari .grid-item-password .grid-tile-blockquote{
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-safari .grid-item-password .typography-blockquote-copy{
+        min-width: 285px;
+    }
+    .section-safari .grid-item-password .grid-tile-blockquote{
+        max-width: 285px;
+    }
+}
+
+
+@media only screen and (min-width: 735px) {
+    .section-siri .grid-item-answers .grid-item-header{
+        padding-bottom: 48px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app-library-row video{
+    display: none;
+}
+.app-library-row .inline-video .inline-video-media .inline-video-frame-end,
+.app-library-row .inline-video .inline-video-media .inline-video-frame-start{
+    display: none;
+}
+.app-library-row .inline-video .inline-video-media .inline-video-frame-static{
+    visibility: visible;
+    opacity: 1;
+}
+.app-library-row .controls-container{
+    display: none;
+}
+
+/* 멘션 */
+.image-overview-messages-mentions {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/mentions__bo5v5ewcf6j6_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-messages-mentions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/mentions__bo5v5ewcf6j6_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-messages-mentions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/mentions__bo5v5ewcf6j6_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-messages-mentions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/mentions__bo5v5ewcf6j6_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-messages-mentions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/mentions__bo5v5ewcf6j6_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-messages-mentions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/mentions__bo5v5ewcf6j6_small_2x.jpg")
+    }
+}
+
+
+
+.section-router .image-shared-router-abs-program {
+
+    background-image: url("/kr/ios/ios-14/c/images/shared/router/abs_program__el4156kug8eq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-router .image-shared-router-abs-program {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/abs_program__el4156kug8eq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-router .image-shared-router-abs-program {
+
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/abs_program__el4156kug8eq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-router .image-shared-router-abs-program {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/abs_program__el4156kug8eq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-router .image-shared-router-abs-program {
+
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/abs_program__el4156kug8eq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-router .image-shared-router-abs-program {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/abs_program__el4156kug8eq_small_2x.jpg");
+    }
+}
+
+
+
+
+
+.section-router .image-shared-router-ipados-router {
+    background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-router .image-shared-router-ipados-router {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-router .image-shared-router-ipados-router {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-router .image-shared-router-ipados-router {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-router .image-shared-router-ipados-router {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-router .image-shared-router-ipados-router {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_small_2x.jpg");
+    }
+}
+
+.grid-item-ipados {
+    background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .grid-item-ipados {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .grid-item-ipados {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .grid-item-ipados {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-ipados {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-ipados {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/ipados_router__d76a93gwrp2e_small_2x.jpg");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/news__mr7iokhzusii_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/news__mr7iokhzusii_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-news, html.hero-static .section-hero .image-app-chiclet-news, html.no-js .section-hero .image-app-chiclet-news {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/news__mr7iokhzusii_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music, html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music, html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/music__b8nol89iwk2u_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music, html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music, html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/music__b8nol89iwk2u_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music, html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music, html.hero-intro-assets-loaded .section-hero .image-app-widget-music, html.hero-static .section-hero .image-app-widget-music, html.no-js .section-hero .image-app-widget-music {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/music__b8nol89iwk2u_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_left__bmye5zpxa11e_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_left__bmye5zpxa11e_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_left__bmye5zpxa11e_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_left__bmye5zpxa11e_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_left__bmye5zpxa11e_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left, html.hero-intro-assets-loaded .section-hero .image-side-phone-left, html.hero-static .section-hero .image-side-phone-left, html.no-js .section-hero .image-side-phone-left {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_left__bmye5zpxa11e_small_2x.jpg");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_right__d6djhenmjr0i_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_right__d6djhenmjr0i_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_right__d6djhenmjr0i_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_right__d6djhenmjr0i_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_right__d6djhenmjr0i_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right, html.hero-intro-assets-loaded .section-hero .image-side-phone-right, html.hero-static .section-hero .image-side-phone-right, html.no-js .section-hero .image-side-phone-right {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/side_phone_right__d6djhenmjr0i_small_2x.jpg");
+    }
+}
+
+.section-experience .image-widgets-2-screen {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_2_screen__f77v9o4olgi2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-experience .image-widgets-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_2_screen__f77v9o4olgi2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-experience .image-widgets-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_2_screen__f77v9o4olgi2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-experience .image-widgets-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_2_screen__f77v9o4olgi2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-experience .image-widgets-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_2_screen__f77v9o4olgi2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-experience .image-widgets-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_2_screen__f77v9o4olgi2_small_2x.jpg");
+    }
+}
+
+.section-experience .image-widgets-3-screen {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_3_screen__dj5zh45d2ms2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-experience .image-widgets-3-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_3_screen__dj5zh45d2ms2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-experience .image-widgets-3-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_3_screen__dj5zh45d2ms2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-experience .image-widgets-3-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_3_screen__dj5zh45d2ms2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-experience .image-widgets-3-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_3_screen__dj5zh45d2ms2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-experience .image-widgets-3-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_3_screen__dj5zh45d2ms2_small_2x.jpg");
+    }
+}
+
+.image-overview-messages-inline-replies {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/inline_replies__gkd53a5ar7e6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-messages-inline-replies {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/inline_replies__gkd53a5ar7e6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-messages-inline-replies {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/inline_replies__gkd53a5ar7e6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-messages-inline-replies {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/inline_replies__gkd53a5ar7e6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-messages-inline-replies {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/inline_replies__gkd53a5ar7e6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-messages-inline-replies {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/inline_replies__gkd53a5ar7e6_small_2x.jpg");
+    }
+}
+
+.image-overview-siri-compact-design {
+    background-image: url("/kr/ios/ios-14/c/images/overview/siri/compact_design__gl7avyzfr7ue_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-siri-compact-design {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/compact_design__gl7avyzfr7ue_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-siri-compact-design {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/compact_design__gl7avyzfr7ue_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-siri-compact-design {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/compact_design__gl7avyzfr7ue_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-siri-compact-design {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/compact_design__gl7avyzfr7ue_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-siri-compact-design {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/compact_design__gl7avyzfr7ue_small_2x.jpg");
+    }
+}
+
+.image-overview-siri-web-answers {
+    background-image: url("/kr/ios/ios-14/c/images/overview/siri/web_answers__cl1mssqaapn6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-siri-web-answers {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/web_answers__cl1mssqaapn6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-siri-web-answers {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/web_answers__cl1mssqaapn6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-siri-web-answers {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/web_answers__cl1mssqaapn6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-siri-web-answers {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/web_answers__cl1mssqaapn6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-siri-web-answers {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/web_answers__cl1mssqaapn6_small_2x.jpg");
+    }
+}
+
+.image-overview-siri-send-audio {
+    background-image: url("/kr/ios/ios-14/c/images/overview/siri/send_audio__bsquk1g8w0ly_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-siri-send-audio {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/send_audio__bsquk1g8w0ly_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-siri-send-audio {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/send_audio__bsquk1g8w0ly_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-siri-send-audio {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/send_audio__bsquk1g8w0ly_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-siri-send-audio {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/send_audio__bsquk1g8w0ly_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-siri-send-audio {
+        background-image: url("/kr/ios/ios-14/c/images/overview/siri/send_audio__bsquk1g8w0ly_small_2x.jpg");
+    }
+}
+
+.image-overview-home-automation-suggestions {
+    background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_small_2x.jpg");
+    }
+}
+
+.image-overview-carplay-car-keys-wallet {
+    background-image: url("/kr/ios/ios-14/c/images/overview/carplay/car_keys_wallet__frugob4hclqq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-carplay-car-keys-wallet {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/car_keys_wallet__frugob4hclqq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-carplay-car-keys-wallet {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/car_keys_wallet__frugob4hclqq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-carplay-car-keys-wallet {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/car_keys_wallet__frugob4hclqq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-carplay-car-keys-wallet {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/car_keys_wallet__frugob4hclqq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-carplay-car-keys-wallet {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/car_keys_wallet__frugob4hclqq_small_2x.jpg");
+    }
+}
+
+.image-overview-carplay-carplay-wallpaper {
+    background-image: url("/kr/ios/ios-14/c/images/overview/carplay/carplay_wallpaper__f93y5qyv8qum_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-carplay-carplay-wallpaper {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/carplay_wallpaper__f93y5qyv8qum_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-carplay-carplay-wallpaper {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/carplay_wallpaper__f93y5qyv8qum_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-carplay-carplay-wallpaper {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/carplay_wallpaper__f93y5qyv8qum_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-carplay-carplay-wallpaper {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/carplay_wallpaper__f93y5qyv8qum_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-carplay-carplay-wallpaper {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/carplay_wallpaper__f93y5qyv8qum_small_2x.jpg");
+    }
+}
+
+.image-overview-carplay-share-manage-keys {
+    background-image: url("/kr/ios/ios-14/c/images/overview/carplay/share_manage_keys__dpk04vfb6maa_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-carplay-share-manage-keys {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/share_manage_keys__dpk04vfb6maa_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-carplay-share-manage-keys {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/share_manage_keys__dpk04vfb6maa_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-carplay-share-manage-keys {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/share_manage_keys__dpk04vfb6maa_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-carplay-share-manage-keys {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/share_manage_keys__dpk04vfb6maa_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-carplay-share-manage-keys {
+        background-image: url("/kr/ios/ios-14/c/images/overview/carplay/share_manage_keys__dpk04vfb6maa_small_2x.jpg");
+    }
+}
+
+.image-overview-airpods-automatic-switching {
+    background-image: url("/kr/ios/ios-14/c/images/overview/airpods/automatic_switching__7ww5fo367hei_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-airpods-automatic-switching {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/automatic_switching__7ww5fo367hei_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-airpods-automatic-switching {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/automatic_switching__7ww5fo367hei_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-airpods-automatic-switching {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/automatic_switching__7ww5fo367hei_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-airpods-automatic-switching {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/automatic_switching__7ww5fo367hei_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-airpods-automatic-switching {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/automatic_switching__7ww5fo367hei_small_2x.jpg");
+    }
+}
+
+
+
+
+
+
+.app-library-row .inline-video .inline-video-media .inline-video-frame-static {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_small_2x.jpg");
+    }
+}
+
+
+
+
+
+.app-library-row .inline-video .inline-video-media .inline-video-frame-end {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .app-library-row .inline-video .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/app_library_endframe__clez6nmktaoi_small_2x.jpg");
+    }
+}
+
+.grid-item-headphone .image-overview-airpods-headphone-accommodations {
+		left:44%;
+	}
+
+@media only screen and (max-width: 1068px) {
+	.grid-item-headphone .image-overview-airpods-headphone-accommodations {
+		left:50%;
+	}
+
+}
+
+
+.image-overview-airpods-headphone-accommodations {
+    width: 600px;
+    height: 610px;
+    background-size: 600px 610px;
+    background-image: url("/kr/ios/ios-14/c/images/overview/airpods/headphone_accommodations__gef42mr3pr6m_large.jpg")
+    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-airpods-headphone-accommodations {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/headphone_accommodations__gef42mr3pr6m_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-airpods-headphone-accommodations {
+        width: 401px;
+        height: 462px;
+        background-size: 401px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/headphone_accommodations__gef42mr3pr6m_medium.jpg")
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-airpods-headphone-accommodations {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/headphone_accommodations__gef42mr3pr6m_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-airpods-headphone-accommodations {
+        width: 400px;
+        height: 525px;
+        background-size: 400px 525px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/headphone_accommodations__gef42mr3pr6m_small.jpg")
+    } 
+} 
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-airpods-headphone-accommodations { 
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/headphone_accommodations__gef42mr3pr6m_small_2x.jpg")
+    }
+}
+
+
+.image-overview-app-clips-discover-app-clips {
+    width: 556px;
+    height: 647px;
+    background-size: 556px 647px;
+    background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-app-clips-discover-app-clips {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_large_2x.jpg");
+    }
+}
+
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-app-clips-discover-app-clips {
+        width: 425px;
+        height: 462px;
+        background-size: 425px 462px;
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-app-clips-discover-app-clips {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_medium_2x.jpg");
+    
+    }
+}
+@media only screen and (max-width: 734px) {
+    .image-overview-app-clips-discover-app-clips {
+        width: 400px;
+        height: 526px;
+        background-size: 400px 526px;
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clipsdiscover_app_clips_endframe__dddz2m6wguoi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-app-clips-discover-app-clips {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__dddz2m6wguoi_small_2x.jpg");
+    }
+}
+
+
+
+@media only screen and (max-width: 1068px) {
+.image-overview-app-clips-discover-app-clips {
+		left: 50%;
+		margin-left: -18.5px;
+	}	
+}
+
+
+@media only screen and (max-width: 750px) {
+.image-overview-app-clips-discover-app-clips {
+		left: 50%;
+		margin-left: -36.5px;
+	}	
+}
+
+
+
+
+
+@media only screen and (max-width: 734px) {
+    .image-overview-app-clips-discover-app-clips-endframe {
+        width: 188px;
+        height: 406px;
+        background-size: 188px 406px;
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__dddz2m6wguoi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-app-clips-discover-app-clips-endframe {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__dddz2m6wguoi_small_2x.jpg");
+    }
+}
+
+
+@media only screen and (max-width: 734px) {
+    .grid-item-introducing .three-up-hardware .inline-video-media .inline-video-frame-static {
+        width: 188px;
+        height: 406px;
+        background-size: 188px 406px;
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__dddz2m6wguoi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-introducing .three-up-hardware .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__dddz2m6wguoi_small_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-introducing .three-up-hardware .inline-video-media .inline-video-frame-end {
+        visibility: visible;
+        opacity: 1;
+        width: 188px;
+        height: 406px;
+        background-size: 188px 406px;
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__dddz2m6wguoi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-introducing .three-up-hardware .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__dddz2m6wguoi_small_2x.jpg");
+    }
+}
+
+.section-app-clips .controls-container,
+.section-app-clips video,
+.grid-item-introducing .three-up-hardware .inline-video-media .inline-video-frame-start{
+    display: none;
+
+}
+@media only screen and (max-width: 734px) {
+    .image-overview-app-clips-discover-app-clips{
+        display: none;
+    }
+}
+
+
+.section-router .image-shared-router-update-ios-14 {
+    background-image: url("/kr/ios/ios-14/c/images/shared/router/update_ios_14__ba5961ev2r4i_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .section-router .image-shared-router-update-ios-14 {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/update_ios_14__ba5961ev2r4i_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-router .image-shared-router-update-ios-14 {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/update_ios_14__ba5961ev2r4i_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-router .image-shared-router-update-ios-14 {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/update_ios_14__ba5961ev2r4i_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-router .image-shared-router-update-ios-14 {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/update_ios_14__ba5961ev2r4i_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-router .image-shared-router-update-ios-14 {
+        background-image: url("/kr/ios/ios-14/c/images/shared/router/update_ios_14__ba5961ev2r4i_small_2x.jpg")
+    }
+}
+
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/camera__opfx3asyct2y_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/camera__opfx3asyct2y_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-camera, html.hero-static .section-hero .image-app-chiclet-camera, html.no-js .section-hero .image-app-chiclet-camera {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/camera__opfx3asyct2y_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/clock__fbuw433lt7ma_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/clock__fbuw433lt7ma_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-clock, html.hero-static .section-hero .image-app-chiclet-clock, html.no-js .section-hero .image-app-chiclet-clock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/clock__fbuw433lt7ma_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/files__hwtp6cvbdiai_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/files__hwtp6cvbdiai_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-files, html.hero-static .section-hero .image-app-chiclet-files, html.no-js .section-hero .image-app-chiclet-files {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/files__hwtp6cvbdiai_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/health__bs67bn9jyhpy_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/health__bs67bn9jyhpy_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-health, html.hero-static .section-hero .image-app-chiclet-health, html.no-js .section-hero .image-app-chiclet-health {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/health__bs67bn9jyhpy_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/home__bx1vlgutchsi_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/home__bx1vlgutchsi_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-home, html.hero-static .section-hero .image-app-chiclet-home, html.no-js .section-hero .image-app-chiclet-home {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/home__bx1vlgutchsi_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/photos__cyiqo9k0hf6u_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/photos__cyiqo9k0hf6u_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-photos, html.hero-static .section-hero .image-app-chiclet-photos, html.no-js .section-hero .image-app-chiclet-photos {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/photos__cyiqo9k0hf6u_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/stocks__ew6jritb3p2e_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/stocks__ew6jritb3p2e_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-stocks, html.hero-static .section-hero .image-app-chiclet-stocks, html.no-js .section-hero .image-app-chiclet-stocks {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/stocks__ew6jritb3p2e_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/weather__fk8gg2n5kiaa_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/weather__fk8gg2n5kiaa_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather, html.hero-intro-assets-loaded .section-hero .image-app-chiclet-weather, html.hero-static .section-hero .image-app-chiclet-weather, html.no-js .section-hero .image-app-chiclet-weather {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-chiclet/weather__fk8gg2n5kiaa_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity, html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity, html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/activity__lnd22dcc9aqa_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity, html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity, html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/activity__lnd22dcc9aqa_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity, html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity, html.hero-intro-assets-loaded .section-hero .image-app-widget-activity, html.hero-static .section-hero .image-app-widget-activity, html.no-js .section-hero .image-app-widget-activity {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/activity__lnd22dcc9aqa_small.png");
+    }
+}
+
+html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos, html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos, html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos {
+    background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/photos__cyiqo9k0hf6u_large.png");
+}
+
+@media only screen and (max-width: 1068px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos, html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos, html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/photos__cyiqo9k0hf6u_medium.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos, html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos, html.hero-intro-assets-loaded .section-hero .image-app-widget-photos, html.hero-static .section-hero .image-app-widget-photos, html.no-js .section-hero .image-app-widget-photos {
+        background-image: url("/kr/ios/ios-14/c/images/overview/hero/app-widget/photos__cyiqo9k0hf6u_small.png");
+    }
+}
+
+.section-experience .image-widgets-1-screen {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_1_screen__n5aqy1mmrsy2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-experience .image-widgets-1-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_1_screen__n5aqy1mmrsy2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-experience .image-widgets-1-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_1_screen__n5aqy1mmrsy2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-experience .image-widgets-1-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_1_screen__n5aqy1mmrsy2_medium_2x.jpg");
+    }
+}
+
+.section-experience .image-widgets-4-screen {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_4_screen__bujsr3sgh9rm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-experience .image-widgets-4-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_4_screen__bujsr3sgh9rm_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-experience .image-widgets-4-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_4_screen__bujsr3sgh9rm_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-experience .image-widgets-4-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_4_screen__bujsr3sgh9rm_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-experience .image-widgets-4-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_4_screen__bujsr3sgh9rm_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-experience .image-widgets-4-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/widgets_4_screen__bujsr3sgh9rm_small_2x.jpg");
+    }
+}
+
+.section-experience .image-compact-calls-screen {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen__c1fw4m4b4bo2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-experience .image-compact-calls-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen__c1fw4m4b4bo2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-experience .image-compact-calls-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen__c1fw4m4b4bo2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-experience .image-compact-calls-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen__c1fw4m4b4bo2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-experience .image-compact-calls-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen__c1fw4m4b4bo2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-experience .image-compact-calls-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen__c1fw4m4b4bo2_small_2x.jpg");
+    }
+}
+
+.section-experience .image-picture-in-picture-2-screen {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/picture_in_picture_2_screen__cjkunqwzsbma_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-experience .image-picture-in-picture-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/picture_in_picture_2_screen__cjkunqwzsbma_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-experience .image-picture-in-picture-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/picture_in_picture_2_screen__cjkunqwzsbma_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-experience .image-picture-in-picture-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/picture_in_picture_2_screen__cjkunqwzsbma_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-experience .image-picture-in-picture-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/picture_in_picture_2_screen__cjkunqwzsbma_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-experience .image-picture-in-picture-2-screen {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/picture_in_picture_2_screen__cjkunqwzsbma_small_2x.jpg");
+    }
+}
+
+.section-experience .image-compact-calls-screen-ui {
+    background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen_ui__f1o2b5y331u2_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-experience .image-compact-calls-screen-ui {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen_ui__f1o2b5y331u2_large_2x.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-experience .image-compact-calls-screen-ui {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen_ui__f1o2b5y331u2_medium.png");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-experience .image-compact-calls-screen-ui {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen_ui__f1o2b5y331u2_medium_2x.png");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-experience .image-compact-calls-screen-ui {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen_ui__f1o2b5y331u2_small.png");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-experience .image-compact-calls-screen-ui {
+        background-image: url("/kr/ios/ios-14/c/images/overview/experience/compact_calls_screen_ui__f1o2b5y331u2_small_2x.png");
+    }
+}
+
+.grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-start {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_startframe__flqr88ib2rm2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_startframe__flqr88ib2rm2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_startframe__flqr88ib2rm2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_startframe__flqr88ib2rm2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_startframe__flqr88ib2rm2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_startframe__flqr88ib2rm2_small_2x.jpg");
+    }
+}
+
+.grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-static {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_small_2x.jpg");
+    }
+}
+
+.grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-end {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-pinned-conversations .pinned-conversations-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/pinned_conversations_endframe__bwfppc4yv4mq_small_2x.jpg");
+    }
+}
+
+.grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-static {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_small_2x.jpg");
+    }
+}
+
+.grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-end {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-end {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_endframe__fcn0j9osytua_small_2x.jpg");
+    }
+}
+
+.grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-start {
+    background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_startframe__0jehegnhw3m6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_startframe__0jehegnhw3m6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_startframe__0jehegnhw3m6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_startframe__0jehegnhw3m6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_startframe__0jehegnhw3m6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-group-photos .group-photos-figure .inline-video-media .inline-video-frame-start {
+        background-image: url("/kr/ios/ios-14/c/images/overview/messages/group_photos_startframe__0jehegnhw3m6_small_2x.jpg");
+    }
+}
+
+.image-overview-translate-offline-translation {
+    background-image: url("/kr/ios/ios-14/c/images/overview/translate/offline_translation__f9qwmhcl3vm2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-translate-offline-translation {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/offline_translation__f9qwmhcl3vm2_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-translate-offline-translation {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/offline_translation__f9qwmhcl3vm2_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-translate-offline-translation {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/offline_translation__f9qwmhcl3vm2_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-translate-offline-translation {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/offline_translation__f9qwmhcl3vm2_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-translate-offline-translation {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/offline_translation__f9qwmhcl3vm2_small_2x.jpg");
+    }
+}
+
+.image-overview-translate-favorite-phrases {
+    background-image: url("/kr/ios/ios-14/c/images/overview/translate/favorite_phrases__gdctxrp2s4yi_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-translate-favorite-phrases {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/favorite_phrases__gdctxrp2s4yi_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-translate-favorite-phrases {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/favorite_phrases__gdctxrp2s4yi_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-translate-favorite-phrases {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/favorite_phrases__gdctxrp2s4yi_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-translate-favorite-phrases {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/favorite_phrases__gdctxrp2s4yi_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-translate-favorite-phrases {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/favorite_phrases__gdctxrp2s4yi_small_2x.jpg");
+    }
+}
+
+.image-overview-translate-conversation-mode {
+    background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode__dbz290l4moa6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-translate-conversation-mode {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode__dbz290l4moa6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-translate-conversation-mode {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode__dbz290l4moa6_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-translate-conversation-mode {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode__dbz290l4moa6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-translate-conversation-mode {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode__dbz290l4moa6_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-translate-conversation-mode {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode__dbz290l4moa6_small_2x.jpg");
+    }
+}
+
+.image-overview-safari-itp-toolbar {
+    background-image: url("/kr/ios/ios-14/c/images/overview/safari/itp_toolbar__cdum11m7mufm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-safari-itp-toolbar {
+        background-image: url("/kr/ios/ios-14/c/images/overview/safari/itp_toolbar__cdum11m7mufm_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-safari-itp-toolbar {
+        background-image: url("/kr/ios/ios-14/c/images/overview/safari/itp_toolbar__cdum11m7mufm_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-safari-itp-toolbar {
+        background-image: url("/kr/ios/ios-14/c/images/overview/safari/itp_toolbar__cdum11m7mufm_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-safari-itp-toolbar {
+        background-image: url("/kr/ios/ios-14/c/images/overview/safari/itp_toolbar__cdum11m7mufm_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-safari-itp-toolbar {
+        background-image: url("/kr/ios/ios-14/c/images/overview/safari/itp_toolbar__cdum11m7mufm_small_2x.jpg");
+    }
+}
+
+.image-overview-airpods-battery-notifications {
+    background-image: url("/kr/ios/ios-14/c/images/overview/airpods/battery_notifications__bdzkk7dqc70i_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-airpods-battery-notifications {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/battery_notifications__bdzkk7dqc70i_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-airpods-battery-notifications {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/battery_notifications__bdzkk7dqc70i_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-airpods-battery-notifications {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/battery_notifications__bdzkk7dqc70i_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-airpods-battery-notifications {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/battery_notifications__bdzkk7dqc70i_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-airpods-battery-notifications {
+        background-image: url("/kr/ios/ios-14/c/images/overview/airpods/battery_notifications__bdzkk7dqc70i_small_2x.jpg");
+    }
+}
+
+.image-overview-privacy-sign-in-apple {
+    background-image: url("/kr/ios/ios-14/c/images/overview/privacy/sign_in_apple__ccvgjqxvrdzm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-privacy-sign-in-apple {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/sign_in_apple__ccvgjqxvrdzm_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-privacy-sign-in-apple {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/sign_in_apple__ccvgjqxvrdzm_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-sign-in-apple {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/sign_in_apple__ccvgjqxvrdzm_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-privacy-sign-in-apple {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/sign_in_apple__ccvgjqxvrdzm_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-sign-in-apple {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/sign_in_apple__ccvgjqxvrdzm_small_2x.jpg");
+    }
+}
+
+.image-overview-privacy-mic-camera-indicator {
+    background-image: url("/kr/ios/ios-14/c/images/overview/privacy/mic_camera_indicator__d0iwt6uqf60y_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-privacy-mic-camera-indicator {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/mic_camera_indicator__d0iwt6uqf60y_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-privacy-mic-camera-indicator {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/mic_camera_indicator__d0iwt6uqf60y_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-mic-camera-indicator {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/mic_camera_indicator__d0iwt6uqf60y_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-privacy-mic-camera-indicator {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/mic_camera_indicator__d0iwt6uqf60y_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-mic-camera-indicator {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/mic_camera_indicator__d0iwt6uqf60y_small_2x.jpg");
+    }
+}
+
+.image-overview-and-more-so-much-more {
+    background-image: url("/kr/ios/ios-14/c/images/overview/and-more/so_much_more__bgh73shv24vm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-and-more-so-much-more {
+        background-image: url("/kr/ios/ios-14/c/images/overview/and-more/so_much_more__bgh73shv24vm_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-and-more-so-much-more {
+        background-image: url("/kr/ios/ios-14/c/images/overview/and-more/so_much_more__bgh73shv24vm_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-and-more-so-much-more {
+        background-image: url("/kr/ios/ios-14/c/images/overview/and-more/so_much_more__bgh73shv24vm_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-and-more-so-much-more {
+        background-image: url("/kr/ios/ios-14/c/images/overview/and-more/so_much_more__bgh73shv24vm_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-and-more-so-much-more {
+        background-image: url("/kr/ios/ios-14/c/images/overview/and-more/so_much_more__bgh73shv24vm_small_2x.jpg");
+    }
+}
+
+.image-overview-home-automation-suggestions {
+    background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_medium.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_small.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-home-automation-suggestions {
+        background-image: url("/kr/ios/ios-14/c/images/overview/home/automation_suggestions__fq37doby8h26_small_2x.jpg");
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 734px), 
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx), 
+only screen and (max-width: 734px) and (min-resolution: 144dpi){
+    .image-overview-translate-conversation-mode-static {
+    background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode_static__s84h78y10ree_small_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-translate-conversation-mode-static {
+        background-image: url("/kr/ios/ios-14/c/images/overview/translate/conversation_mode_static__s84h78y10ree_small.jpg");
+    }
+}
+
+/** privacy control **/
+
+.image-overview-privacy-privacy-control {
+    background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_control__esd9uzt68zo2_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-control {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_control__esd9uzt68zo2_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-privacy-privacy-control {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_control__esd9uzt68zo2_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-control {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_control__esd9uzt68zo2_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-privacy-privacy-control {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_control__esd9uzt68zo2_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-control {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_control__esd9uzt68zo2_small_2x.jpg")
+    }
+}
+
+/** privacy label **/
+
+.image-overview-privacy-privacy-labels {
+    background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_labels__crfplupati6a_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-labels {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_labels__crfplupati6a_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-privacy-privacy-labels {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_labels__crfplupati6a_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-labels {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_labels__crfplupati6a_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-privacy-privacy-labels {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_labels__crfplupati6a_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-labels {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_labels__crfplupati6a_small_2x.jpg")
+    }
+}
+
+/** privacy transparency **/
+
+.image-overview-privacy-privacy-transparency {
+    background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_transparency__bsl3pjxx3xiu_large.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-transparency {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_transparency__bsl3pjxx3xiu_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-privacy-privacy-transparency {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_transparency__bsl3pjxx3xiu_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-transparency {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_transparency__bsl3pjxx3xiu_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-privacy-privacy-transparency {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_transparency__bsl3pjxx3xiu_small.png")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-privacy-privacy-transparency {
+        background-image: url("/kr/ios/ios-14/c/images/overview/privacy/privacy_transparency__bsl3pjxx3xiu_small_2x.png")
+    }
+}
+
+
+
+.section-app-clips .grid-item-content .three-up-hardware {
+    position: relative;
+    left: 50%;
+    margin-left: -278px;
+    width: 556px;
+    height: 647px;
+    background-size: 556px 647px;
+    background-repeat: no-repeat;
+    background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .section-app-clips .grid-item-content .three-up-hardware {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_large_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-app-clips .grid-item-content .three-up-hardware {
+        left: 50%;
+        margin-left: -212.5px;
+        width: 425px;
+        height: 462px;
+        background-size: 425px 462px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-app-clips .grid-item-content .three-up-hardware {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips__ftpret26i2i6_medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-app-clips .grid-item-content .three-up-hardware {
+        left: 50%;
+        margin-left: -200px;
+        width: 400px;
+        height: 526px;
+        background-size: 400px 526px;
+        background-repeat: no-repeat;
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__btdn4nnxt5si_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-app-clips .grid-item-content .three-up-hardware {
+        background-image: url("/kr/ios/ios-14/c/images/overview/app-clips/discover_app_clips_endframe__btdn4nnxt5si_small_2x.jpg");
+    }
+}
+
+
+.grid-item-introducing .three-up-hardware::after,
+.grid-item-introducing .three-up-hardware::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.image-overview-face-id-unlock {
+    background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-overview-face-id-unlock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-overview-face-id-unlock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-overview-face-id-unlock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-overview-face-id-unlock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-overview-face-id-unlock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_small_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 374px) and (max-width: 734px) {
+    .grid-item-unlock .image-overview-face-id-unlock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 374px) and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 374px) and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 374px) and (max-width: 734px) and (min-resolution: 144dpi) {
+    .grid-item-unlock .image-overview-face-id-unlock {
+        background-image: url("/kr/ios/ios-14/c/images/overview/face-id/unlock__7si3ytrjs1u6_small_2x.jpg")
+    }
+}
